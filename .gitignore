@@ -1,0 +1,7 @@
+# Ignore all files in the data directory
+**/data/*
+
+# But do not ignore important.txt
+!**/data/important.txt
+
+.DS_Store
